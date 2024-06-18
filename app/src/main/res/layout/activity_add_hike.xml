@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <EditText
+                android:id="@+id/route_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Route Name"/>
+
+            <EditText
+                android:id="@+id/route_elevation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Elevation"/>
+
+            <EditText
+                android:id="@+id/route_distance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Distance"/>
+
+            <EditText
+                android:id="@+id/route_difficulty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Difficulty Grade"/>
+
+            <EditText
+                android:id="@+id/route_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Description"/>
+
+            <Button
+                android:id="@+id/button_add_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Photo"/>
+
+            <ImageView
+                android:id="@+id/image_preview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="Hike Image"/>
+
+            <Button
+                android:id="@+id/button_save_hike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save Hike"/>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

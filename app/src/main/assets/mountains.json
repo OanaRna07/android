@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Mount Everest",
+    "height": "8848 meters",
+    "location": "Nepal"
+  },
+  {
+    "name": "K2",
+    "height": "8611 meters",
+    "location": "Pakistan"
+  },
+  {
+    "name": "Mount Kilimanjaro",
+    "height": "5895 meters",
+    "location": "Tanzania"
+  },
+  {
+    "name": "Mount Fuji",
+    "height": "3776 meters",
+    "location": "Japan"
+  },
+  {
+    "name": "Denali",
+    "height": "6190 meters",
+    "location": "United States"
+  }
+]
